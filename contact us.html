@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Store - Contact Us</title>
+    <link rel="stylesheet" href="hme.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Tharun musical palace</div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Product page.html">Products</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+                <li><a href="Cart.html">Cart</a></li>
+                <li><a href="Checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <p class="contact-info">We'd love to hear from you! Please fill out the form below to get in touch with us.</p>
+            
+            <form class="contact-form" action="submit_contact.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+            
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                </div>
+            
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Music Store. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

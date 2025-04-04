@@ -1,0 +1,157 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('C:\Users\tharu\Downloads\tth.jpg') no-repeat center center/cover;
+    
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .shop-now {
+    background: #ff6f61;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.hero .shop-now:hover {
+    background: #e55050;
+}
+
+/* Featured Products Section */
+.featured {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product {
+    background: #f9f9f9;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #ff6f61;
+    margin: 10px 0;
+}
+
+.product .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.product .btn:hover {
+    background: #ff6f61;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-links {
+    margin-bottom: 20px;
+}
+
+footer .social-icon {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-icon:hover {
+    color: #ff6f61;
+}

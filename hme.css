@@ -1,0 +1,973 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Soft background color for the body */
+    color: #333;
+}
+
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61; /* Hover effect on navigation links */
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+}
+
+.hero .shop-now {
+    background: #ff6f61;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.hero .shop-now:hover {
+    background: #e55e50;
+}
+
+/* Featured Products Section */
+.featured {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: #f9f9f9;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #ff6f61;
+    margin: 10px 0;
+}
+
+.product .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.product .btn:hover {
+    background: #ff6f61;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-links {
+    margin-bottom: 20px;
+}
+
+footer .social-icon {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-icon:hover {
+    color: #ff6f61;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6f61;
+}
+
+
+
+
+
+
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Soft background color for the body */
+    color: #333;
+}
+
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61; /* Hover effect on navigation links */
+}
+
+/* About Us Section */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about-header {
+    margin-bottom: 30px;
+}
+
+.about-header h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* About Content */
+.about-content {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-content h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-icon {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-icon:hover {
+    color: #ff6f61;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6f61;
+}
+
+
+
+
+
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background */
+    color: #333;
+}
+
+header {
+    background-color: #333; /* Dark header background */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61; /* Highlight color on hover */
+}
+
+/* Cart Section */
+.cart-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.cart-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cart-info {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Empty Cart Section */
+.empty-cart {
+    text-align: center;
+}
+
+.empty-cart img {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.empty-cart h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.empty-cart p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.empty-cart .btn {
+    padding: 10px 20px;
+    background-color: #ff6f61; /* Highlight color for buttons */
+    color: #fff;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.empty-cart .btn:hover {
+    background-color: #e55d50; /* Darker shade on hover */
+}
+
+/* Cart Total Section */
+.cart-total {
+    margin-top: 40px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.cart-total h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.checkout-btn {
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.checkout-btn:hover {
+    background-color: #e55d50;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-icon {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-icon:hover {
+    color: #ff6f61;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6f61;
+}
+
+
+
+
+
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:blue; /* Light background */
+    color: #333;
+}
+
+header {
+    background-color: #333; /* Dark header background */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61; /* Highlight color on hover */
+}
+
+/* Contact Section */
+.contact-section {
+    background-color:blue;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 2.5em;
+    color: #c12121;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline-color: #ff6f61;
+    border-color: #ff6f61;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #e55d50;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-icon {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-icon:hover {
+    color: #ff6f61;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6f61;
+}
+
+
+
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Main Section */
+.product-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-section .intro-text {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-info h3 {
+    font-size: 1.8em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-info .price {
+    font-size: 1.4em;
+    color: #ff6f61;
+    margin: 10px 0;
+}
+
+.product-info .description {
+    font-size: 1.1em;
+    color: #777;
+    margin: 10px 0;
+}
+
+.product-info .btn {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-info .btn:hover {
+    background-color: #e55d50;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-icon {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-icon:hover {
+    color: #ff6f61;
+}
+
+
+
+
+
+
+
+
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Main Section */
+.contact-section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-section .contact-info {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.form-group input, .form-group textarea {
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #ff6f61;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e55d50;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-icon {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-icon:hover {
+    color: #ff6f61;
+}
