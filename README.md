@@ -138,4 +138,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Tharun - [tharunk1915@gmail.com](mailto:tharunk1915@gmail.com)
 
-Project Link: [https://github.com/yourusername/tharun-musical-palace](https://github.com/yourusername/tharun-musical-palace)
+Project Link: [https://github.com/Tharun19102002/tharun-musical-palace](https://github.com/yourusername/tharun-musical-palace)
